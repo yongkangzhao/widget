@@ -35,7 +35,6 @@ const Search = () => {
     }, [debouncedTerm])
 
     const renderedResults = results.map((result) =>{
-        console.log(result);
         return (
             <div key={result.pageid} className="item">
                 <div className="right floated content">
